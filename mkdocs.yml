@@ -157,17 +157,12 @@ markdown_extensions:
 plugins:
   - tooltips
   - charts
+  - pdf-export
+  - open-in-new-tab
 
   - search:
       prebuild_index: true
-
-  #- i18n:
-  #    default_language: en
-  #    languages:
-  #      en:
-  #        name: English
-  #        build: true
-  
+   
   - minify:
       minify_html: true
       minify_js: true
@@ -191,6 +186,16 @@ plugins:
       enumerate_headings: true
       enumerate_figures: true
       add_cover_page: true
+
+  - code-validator:
+      identifiers:
+        bash:
+          validators:
+            - grep a- code-validator:
+      identifiers:
+        bash:
+          validators:
+            - grep a
 
 # Page tree
 nav:
