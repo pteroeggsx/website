@@ -2,9 +2,11 @@ site_name: PteroEg.gs
 site_url: https://pteroeg.gs/
 site_description: Egg Collection for Pterodactyl & Jexactyl Gameserver Panel
 site_author: PteroEg.gs
+
 nav:
   - Home: index.md
   - About: about.md
+  - License: licence.md 
 
 theme:
   name: material
@@ -81,6 +83,13 @@ plugins:
 
   - search:
       prebuild_index: true
+
+  - i18n:
+      default_language: en
+      languages:
+        en:
+          name: English
+          build: true
   
   - minify:
       minify_html: true
