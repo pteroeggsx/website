@@ -3,6 +3,10 @@ site_url: https://pteroeg.gs/
 site_description: Egg Collection for Pterodactyl & Jexactyl Gameserver Panel
 site_author: PteroEg.gs
 
+repo_url: https://github.com/pteroeggsx/website
+repo_name: Improve this page
+edit_uri: tree/master/docs
+
 nav:
   - Home: index.md
   - About: about.md
@@ -32,25 +36,54 @@ theme:
       example: octicons/beaker-16
       quote: octicons/quote-16
 
-features:
-    - tabs
-    - instant
-    - content.code.annotate
-    # - content.tabs.link
-    # - header.autohide
-    # - navigation.expand
-    - navigation.indexes
-    # - navigation.instant
-    - navigation.sections
-    - navigation.tabs
-    # - navigation.tabs.sticky
-    - navigation.top
-    - navigation.tracking
-    - search.highlight
-    - search.share
-    - search.suggest
-    - toc.follow
-    # - toc.integrate
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+
+  features:
+      - tabs
+      - instant
+      - content.code.annotate
+      # - content.tabs.link
+      # - header.autohide
+      # - navigation.expand
+      - navigation.indexes
+      # - navigation.instant
+      - navigation.sections
+      - navigation.tabs
+      # - navigation.tabs.sticky
+      - navigation.top
+      - navigation.tracking
+      - search.highlight
+      - search.share
+      - search.suggest
+      - toc.follow
+      # - toc.integrate
+  
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+
+# Customization
+extra:
+  homepage: https://pteroeg.gs/
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/pteroeggsx
+    - icon: fontawesome/brands/discord
+      link: https://discord.goover.dev
 
 extra_javascript:
   - https://cdn.jsdelivr.net/npm/vega@5
