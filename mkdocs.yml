@@ -7,10 +7,7 @@ repo_url: https://github.com/pteroeggsx/website
 repo_name: Improve this page
 edit_uri: tree/master/docs
 
-nav:
-  - Home: index.md
-  - About: about.md
-  - License: licence.md 
+copyright: Copyright &copy; 2023 <a href="https://github.com/pteroeggsx">PteroEg.gs</a>.
 
 theme:
   name: material
@@ -150,4 +147,7 @@ plugins:
       enumerate_figures: true
       add_cover_page: true
 
-copyright: Copyright &copy; 2023 <a href="https://github.com/pteroeggsx">PteroEg.gs</a>.
+nav:
+  - Home: index.md
+  #- About: about.md
+  - License: licence.md 
