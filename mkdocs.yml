@@ -195,11 +195,10 @@ plugins:
 # Page tree
 nav:
   - Home: index.md
-  - Eggs:
-    - eggs/index.md
-  - Images:
+  - Eggs: eggs/index.md
+  - Images: 
     - images/index.md
-  - Scripts:
-    - scripts/index.md
+    - Java Images: images/java/index.md
+  - Scripts: scripts/index.md
   - Support: support.md
   - License: license.md 
