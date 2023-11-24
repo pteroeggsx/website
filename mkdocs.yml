@@ -150,4 +150,4 @@ plugins:
       enumerate_figures: true
       add_cover_page: true
 
-      copyright: Copyright &copy; 2023 <a href="https://github.com/pteroeggsx">PteroEg.gs</a>.
+copyright: Copyright &copy; 2023 <a href="https://github.com/pteroeggsx">PteroEg.gs</a>.
