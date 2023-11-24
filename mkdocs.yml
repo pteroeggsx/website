@@ -124,9 +124,6 @@ plugins:
   - tooltips
   - charts
 
-  - privacy
-      enabled: true
-
   - search:
       prebuild_index: true
 
