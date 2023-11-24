@@ -127,12 +127,10 @@ plugins:
       minify_css: true
       htmlmin_opts:
           remove_comments: true
-      css_files:
-          - css/hint.min.css
       
   - git-revision-date-localized:
       type: timeago
-      timezone: Europe/Helsinki
+      timezone: Europe/Vienna
       locale: en
       fallback_to_build_date: false
       enable_creation_date: true
@@ -150,4 +148,4 @@ plugins:
 nav:
   - Home: index.md
   #- About: about.md
-  - License: licence.md 
+  - License: license.md 
