@@ -60,15 +60,15 @@ theme:
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: slate
-      primary: indigo
-      accent: indigo
+      primary: deep orange
+      accent: deep orange
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to light mode
     - media: "(prefers-color-scheme: dark)"
       scheme: default
-      primary: indigo
-      accent: indigo
+      primary: deep orange
+      accent: deep orange
       toggle:
         icon: material/toggle-switch
         name: Switch to dark mode
@@ -86,6 +86,19 @@ extra_javascript:
   - https://cdn.jsdelivr.net/npm/vega@5
   - https://cdn.jsdelivr.net/npm/vega-lite@5
   - https://cdn.jsdelivr.net/npm/vega-embed@6
+
+extra:
+  consent:
+    title: Cookie consent
+    description: >- 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+    actions:
+      - accept
+      - reject
+      - manage 
 
 markdown_extensions:
   - abbr
@@ -110,6 +123,9 @@ markdown_extensions:
 plugins:
   - tooltips
   - charts
+
+  - privacy
+      enabled: true
 
   - search:
       prebuild_index: true
