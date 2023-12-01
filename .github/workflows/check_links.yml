@@ -15,7 +15,7 @@ jobs:
       name: main
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
     - name: Check links
       uses: byrnereese/github-action-mkdocs-link-check@main
       with:
