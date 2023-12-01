@@ -15,7 +15,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
       - name: Lint docs directory
-        uses: DavidAnson/markdownlint-cli2-action@v11
+        uses: DavidAnson/markdownlint-cli2-action@v14
         with:
           globs: "docs/**/*.md,!docs/styleguide.md"
           separator: ","
