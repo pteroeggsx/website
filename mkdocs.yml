@@ -49,7 +49,8 @@ theme:
       # - header.autohide
       # - navigation.expand
       - navigation.indexes
-      # - navigation.instant
+      - navigation.instant
+      - navigation.instant.progress
       - navigation.sections
       - navigation.tabs
       # - navigation.tabs.sticky
@@ -161,6 +162,19 @@ plugins:
   - open-in-new-tab
   - autolinks
   - tags
+  
+  - blog:
+      blog_toc: true
+      post_readtime: false
+      archive: true
+      archive_name: Archive
+      archive_date_format: yyyy
+      archive_url_date_format: yyyy
+      archive_url_format: "archive/{date}"
+      categories: false
+      categories_name: Categories
+      authors: false
+      draft: true
 
   - search:
       prebuild_index: true
@@ -188,16 +202,6 @@ plugins:
       enumerate_headings: true
       enumerate_figures: true
       add_cover_page: true
-
-  - code-validator:
-      identifiers:
-        bash:
-          validators:
-            - grep a- code-validator:
-      identifiers:
-        bash:
-          validators:
-            - grep a
 
 # Page tree
 nav:
