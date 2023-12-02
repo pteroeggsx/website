@@ -202,6 +202,10 @@ plugins:
       enumerate_headings: true
       enumerate_figures: true
       add_cover_page: true
+  
+  - social:
+      cards: true
+      cards_layout: default
 
 # Page tree
 nav:
