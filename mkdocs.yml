@@ -206,6 +206,7 @@ nav:
   - Images: 
     - images/index.md
     - Java Images: images/java/index.md
+    - SteamCMD Images: images/steamcmd/index.md
   - Scripts: scripts/index.md
   - Support: support.md
   - License: license.md 
