@@ -12,6 +12,8 @@ copyright: Copyright &copy; 2023 <a href="https://github.com/pteroeggsx">PteroEg
 theme:
   name: material
   
+  logo: assets/pteroeggs.jpg
+
   locale: en
 
   font:
