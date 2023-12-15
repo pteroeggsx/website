@@ -164,6 +164,7 @@ plugins:
   - open-in-new-tab
   - autolinks
   - tags
+  - search 
   
   - blog:
       blog_toc: true
@@ -180,12 +181,8 @@ plugins:
 
   - social:
       cards: true
-      cards_layout: default
 
-  - search:
-      prebuild_index: true
-   
-  - minify:
+   - minify:
       minify_html: true
       minify_js: true
       minify_css: true
